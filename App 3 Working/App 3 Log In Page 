@@ -1,0 +1,85 @@
+//
+//  LogInPage.swift
+//  AppU
+//
+//  Created by Mia Brown on 8/10/2024.
+//
+import SwiftUI
+
+struct LoginView: View {
+    @State private var showingListInternType = false
+    @State private var username = "Username"
+    @State private var password = "Password"
+    @State private var wrongUsername = 0
+    @State private var wrongPassword = 0
+    
+    var body: some View {
+        NavigationStack {
+            
+            ZStack{
+                Color(.systemHomepageColour)
+                    .ignoresSafeArea()
+                
+                VStack {
+                    
+                    Text("Log In")
+                        .font(.largeTitle)
+                        .padding()
+                    
+                    // Username TextField
+                    TextField("Username", text: $username)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .padding()
+                        .border(wrongUsername == 2 ? Color.red : Color.clear)
+                    
+                    // Password SecureField
+                    SecureField("Password", text: $password)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .padding()
+                        .border(wrongPassword == 2 ? Color.red : Color.clear)
+                    
+                    // Image Button for Login
+                    Button(action: {
+                        authenticateUser(username: username, password: password)
+                    }) {
+                        Image("LogInButton") // Replace with the name of your image asset
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 200, height: 50) // Set desired width and height
+                    }
+                    .padding()
+                    
+                    
+                    // Conditionally navigate to the internship list
+                    .navigationDestination(isPresented: $showingListInternType) {
+                        ListInternTypeView(internships: ListInternType.preview())
+                    }
+                }
+                .padding()
+                
+            }
+        }
+    }
+        // Function to authenticate user
+        func authenticateUser(username: String, password: String) {
+            if username.lowercased() == "user123" {
+                wrongUsername = 0
+                if password == "pass123" {
+                    wrongPassword = 0
+                    showingListInternType = true  // Trigger the navigation to internships
+                } else {
+                    wrongPassword = 2  // Incorrect password, show red border
+                }
+            } else {
+                wrongUsername = 2  // Incorrect username, show red border
+            }
+        }
+    }
+
+    
+    struct LoginView_Previews: PreviewProvider {
+        static var previews: some View {
+            LoginView()
+        }
+    }
+
