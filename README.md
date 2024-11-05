@@ -23,7 +23,6 @@ Open Xcode [This will be the coding environment(IOS)]
 
 ## Login Page 
 
-
 ## Sign Up Page 
 
 
