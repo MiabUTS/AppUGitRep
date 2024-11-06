@@ -41,7 +41,23 @@ Code and edit to your liking.
 Save code files as you go to avoid mistakes and losing data. 
 
 ## Usage 
+Code the actions the Login 
+<img width="711" alt="Screenshot 2024-11-02 at 7 24 56 PM" src="https://github.com/user-attachments/assets/142e8d8f-e329-4d6c-8824-6b5fec39245f">
 
+Code that authenticates the Login 
+<img width="699" alt="Screenshot 2024-11-02 at 7 19 22 PM" src="https://github.com/user-attachments/assets/c9324e38-af65-4ddb-b728-76a4b69a5592">
+<img width="706" alt="Screenshot 2024-11-02 at 7 21 20 PM" src="https://github.com/user-attachments/assets/8e279f43-76f2-47e9-8b5e-c01216c4ad09">
+
+Code that changes in the view 
+ #### Navigation Stack and Destination
+<img width="635" alt="Screenshot 2024-11-02 at 5 31 59 PM" src="https://github.com/user-attachments/assets/4ca4d2f5-8f52-4136-890b-7b64a6a4ebef">
+<img width="972" alt="Screenshot 2024-11-02 at 7 08 52 PM" src="https://github.com/user-attachments/assets/1da5ddd9-bdd5-44e0-96df-822d4e1ba17c">
+
+Code that filters the search 
+<img width="912" alt="Screenshot 2024-11-02 at 7 29 47 PM" src="https://github.com/user-attachments/assets/a346e207-57d6-4ad5-a810-cb48c35342a8">
+
+Code the returns the variables stated 
+<img width="913" alt="Screenshot 2024-11-02 at 7 29 20 PM" src="https://github.com/user-attachments/assets/af17fff0-a3d6-41d3-a32b-23886523267f">
 
 ## Features
 - Homepage 
