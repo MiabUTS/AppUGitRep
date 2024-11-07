@@ -1,15 +1,15 @@
 # Application U Data & Code A2 Project
 
 ## Table of Contents 
-* [Project Overview] 
-* [Technologies Used]
-* [Installation & Set Up]
-* [Usage]  
-* [Features]
-* [Screenshots]
-* [Improvements]
-* [References]
-  
+* [Project Overview](#project-overview) 
+* [Technologies Used](#technologies-used)
+* [Installation and Set Up](#installation-and-set-up)
+* [Usage](#usage) 
+* [Features](#features)
+* [Screenshots](#screenshots)
+* [Room for Improvement](#room-for-improvement)
+* [References](#references) 
+
 
 
 ## Project Overview 
@@ -29,7 +29,7 @@ watchOS 11.1,
 visionOS 2.1 and 
 macOS Sequoia 15.1. 
 
-## Installation & Set Up 
+## Installation and Set Up 
 Apple Store: Download Xcode 
 Open Xcode [This will be the coding environment(IOS)] 
 Create new project 
