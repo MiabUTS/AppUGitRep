@@ -64,7 +64,7 @@ Code that filters the search
 
 <img width="912" alt="Screenshot 2024-11-02 at 7 29 47 PM" src="https://github.com/user-attachments/assets/a346e207-57d6-4ad5-a810-cb48c35342a8">
 
-Code the returns the variables stated 
+Return of of Variables stated
 
 <img width="913" alt="Screenshot 2024-11-02 at 7 29 20 PM" src="https://github.com/user-attachments/assets/af17fff0-a3d6-41d3-a32b-23886523267f">
 
@@ -94,11 +94,13 @@ Below are draft screenshots of the basic application.
 <img width="231" alt="Screenshot 2024-11-05 at 9 06 11 PM" src="https://github.com/user-attachments/assets/7cd28370-0a1f-4078-b2b6-ad85f13a1cf4">
 
 - Assets
+  <!--Assets are easily uploaded from desktop to Xcode.--!> 
   <img width="1080" alt="Screenshot 2024-11-05 at 9 03 41 PM" src="https://github.com/user-attachments/assets/f066defa-c0be-411c-a21c-4b9442416de2">
 
 
 ## Room for Improvement 
-The application in development is minimal, due to the creator's skill level and time restriction on the development process. 
+
+The application development is minimal due to the creator's skill level and the time constraints on the development process. 
 
 Areas to be improved include: 
 
@@ -107,8 +109,10 @@ Areas to be improved include:
 - Toolbar and Homepage
 - Application area
 
+
   ## References
   
+
 Allen, S. (Creator).(2023). SwiftUI Search Bar - Searchable. Youtube. 
 https://www.youtube.com/watch?v=iTqwa0DCIMA  
 
@@ -127,4 +131,7 @@ LearnEDU.(Creator).(2023). Navigate Between Views - SwiftUI. https://www.youtube
 
 Prater, K. (Creator).(2023).SwiftUI Tutorial: How to create List View, Custom Cells, and use List Styles. Youtube. https://www.youtube.com/watch?v=X5hy3M47OC4 
 
+Ritaly.(2021). README-cheatsheet. University of Technology Sydney. https://github.com/ritaly/README-cheatsheet/blob/master/README.md?plain=1#general-information 
+
 OpenAI. (2024). ChatGPT (November 4 Version) [Large language model]. OpenAI. 
+
